@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+    <style>
+        .nav {
+            height: 1500px;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md text-bg-dark navbar-dark" style="font-family:Georgia, 'Times New Roman', Times, serif">
+
+        <div class="container mt-3">
+    
+        <a class="navbar-brand"><img src="logo.png" width="75px" height="75px"></a>
+    
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mymenu"><span class="navbar-toggler-icon"></span></button>
+    
+        <div class="collapse navbar-collapse" id="mymenu">
+    
+        <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link active" href="#"><i class="fa-solid fa-house-user"></i>Home</a></li>
+    
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa-brands fa-cc-visa"></i>About</a></li>
+    
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i class="fa-solid fa-sack-dollar"></i>Our Services</a>
+        
+      
+        <ul class="dropdown-menu">
+    
+            <li><a class="dropdown-item">Service 1</a></li>
+    
+            <li><a class="dropdown-item">Service 2</a></li>
+    
+            <li><a class="dropdown-item">Service 3</a></li>
+    
+    
+        </ul>
+    
+        </li>
+        
+        </ul>
+        </div>
+        </div>
+        </nav>
+        <ul class="nav nav-pills flex-column  col-md-3 bg-dark">
+            <li class="nav-item">
+                <a class="nav-link  text-bg-dark" data-bs-toggle="tab" href="#myid1" style="border-radius: 0%;"><i class="fa-solid fa-house"></i>  Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-bg-dark" data-bs-toggle="tab" href="#myid2" style="border-radius: 0%;"><i class="fa-solid fa-circle-info"></i>  Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-bg-dark" data-bs-toggle="tab" href="#myid3"  style="border-radius: 0%;"><i class="fa-solid fa-cart-shopping"></i>  Orders</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-bg-dark" data-bs-toggle="tab" href="#myid4" style="border-radius: 0%;"><i class="fa-brands fa-product-hunt"></i>  Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-bg-dark" data-bs-toggle="tab" href="#myid5" style="border-radius: 0%;"><i class="fa-solid fa-right-to-bracket"></i>  Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-bg-dark" data-bs-toggle="tab" href="#myid6" style="border-radius: 0%;"><i class="fa-solid fa-user-plus"></i>Sign Up</a>
+            </li>
+        </ul>
+        <div class="tab-content col-md-9 mt-3" style="background-image: url('satanic4.jpg');">
+            <div class="tab-pane" id="myid1">
+                <ul class="list-group my-3  shadow p-3 bg-dark">
+                    <li class="list-group-item">
+                      <input class="form-check-input" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                      <label class="form-check-label" for="firstRadio">First radio</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      <label class="form-check-label" for="secondRadio">Second radio</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                      <label class="form-check-label" for="thirdRadio">Third radio</label>
+                    </li>
+                  </ul>
+            </div>
+            <div class="tab-pane" id="myid2">
+                <div class="container my-3 shadow p-3 bg-dark">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <table class="table table-danger table-hover table-bordered table-sm">             
+                                <thead>
+                                    <tr>
+                                        <th colspan="3" class="text-center">Reseacrh Activities</th>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Name</th>
+                                        <th>Dept.</th>
+                                        <th>Research Area</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Mr.Josh</td>
+                                        <td>Physics</td>
+                                        <td>Supply Physics</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ms.Kella</td>
+                                        <td>Ict</td>
+                                        <td>Network Engineering</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <td>footer</td>
+                                    <td>footer</td>
+                                    <td>footer</td>
+                                </tfoot>
+                           </table> 
+                        </div>
+                     
+            </div>
+            </div>
+            </div>
+            <div class="tab-pane" id="myid3">
+                <div class="col-md-6 shadow p-3 bg-dark text-danger">
+                    <div class="accordion" id="parent">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button type="button" class="accordion-button bg-dark text-danger" data-bs-toggle="collapse" data-bs-target="#myaccordion1">Accordion 1</button>
+                            </h2>
+                            <div class="collapse accordion-collapse" id="myaccordion1" data-bs-parent="#parent">
+                                <div class="accordion-body">
+                                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button type="button" class="accordion-button bg-dark text-danger" data-bs-toggle="collapse" data-bs-target="#myaccordion2">Accordion 2</button>
+                            </h2>
+                            <div class="collapse accordion-collapse" id="myaccordion2" data-bs-parent="#parent">
+                                <div class="accordion-body">
+                                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button type="button" class="accordion-button bg-dark text-danger" data-bs-toggle="collapse" data-bs-target="#myaccordion3">Accordion 3</button>
+                            </h2>
+                            <div class="collapse accordion-collapse" id="myaccordion3" data-bs-parent="#parent">
+                                <div class="accordion-body">
+                                    This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                </div>
+                
+            <div class="tab-pane" id="myid4">
+                <div class="container mt-2 shadow p-3 bg-dark">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-dark text-danger">
+                                    Package 1
+                                </div>
+                                <div class="card-body">
+                                    <img src="satanic1.jpg" alt="pic1" class="card-img-top">
+                                    <h3 class="card-title">Package 1</h3>
+                                    <p>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a class="btn btn-dark text-danger" href="#">Read More</a>
+                                    <a class="btn btn-dark text-danger" href="#">Read Less</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-dark text-danger">
+                                    Package 2
+                                </div>
+                                <div class="card-body">
+                                    <img src="satanic1.jpg" alt="pic1" class="card-img-top">
+                                    <h3 class="card-title">Package 2</h3>
+                                    <p>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a class="btn btn-dark text-danger" href="#">Read More</a>
+                                    <a class="btn btn-dark text-danger" href="#">Read Less</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-dark text-danger">
+                                    Package 3
+                                </div>
+                                <div class="card-body">
+                                    <img src="satanic1.jpg" alt="pic1" class="card-img-top">
+                                    <h3 class="card-title">Package 3</h3>
+                                    <p>Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <a class="btn btn-dark text-danger" href="#">Read More</a>
+                                    <a class="btn btn-dark text-danger" href="#">Read Less</a>
+                                </div>
+                            </div>
+                        </div>
+                       
+            </div>
+            </div>
+            </div>
+            <div class="tab-pane" id="myid5">
+                <div class="container shadow p-3 text-bg-dark">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <h3>Login Form </h3>
+                                <form>
+                                    <div class="mt-4 mb-3">
+                                        <label class="form-label">Email/Username</label>
+                                        <input class="form-control" placeholder="email/username">
+                                    </div>
+                   
+                   
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input class="form-control" placeholder="password">
+                    </div>
+                   
+                    <div>
+                        <label class="form-label"><input type="checkbox" name="Rememberme" class="form-check-input"> Remember Me</label>
+                   </div>
+                </form>
+            </div>
+        </div>
+        </div>
+            </div>
+            <div class="tab-pane" id="myid6">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form class="shadow p-3 text-bg-dark mt-4">
+                                <h3>Sign Up</h3>
+                                <div>
+                                <input list="myid" class="form-control" placeholder="Enter title">
+                                <datalist id="myid">
+                                    <option value="Mr">Mr</option>
+                                    <option value="Ms">Ms</option>
+                                    <option value="Mrs">Mrs</option>
+                                </datalist>
+                            </div>
+                            <div class="my-3">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input class="form-control-lg" placeholder="First Name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="text" class="form-control" name="email" placeholder="Mobile Number or Email Address">
+                            </div>
+                            <div class="my-3">
+                                <input type="text" class="form-control" placeholder="Enter Password">
+                            </div>
+                            <div>
+                                <div class="row">
+                                    <label class="form-label">Date of Birth<span class="required-field" style="color:red;">*</span></label>
+                                    <div class="col-md-4">
+                                        <select class="form-select">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-select">
+                                            <option value="1">January</option>
+                                            <option value="2">February</option>
+                                            <option value="3">March</option>
+                                            <option value="4">April</option>
+                                            <option value="5">May</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <select class="form-select">
+                                            <option value="1">1990</option>
+                                            <option value="2">1991</option>
+                                            <option value="3">1992</option>
+                                            <option value="4">1993</option>
+                                            <option value="5">1994</option>
+                                        </select> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row my-3">
+                                <label class="form-label">Gender</label>
+                                <div class="col-md-4">
+                                    <label class="form-check-label">Male</label>
+                                    <input type="radio" class="form-check-input" name="raido">
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-check-label">Female</label>
+                                    <input type="radio" class="form-check-input" name="raido">   
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-check-label">Other</label>
+                                    <input type="radio" class="form-check-input" name="raido">
+                                </div>
+                                <div>
+                                    <label class="form-label">Description</label>
+                                    <textarea class="form-control" name="description" rows="3"></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <label class="form-label">Attachments</label>
+                                    <input type="file" class="form-control" multiple>   
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-level">HTML</label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-level">CSS</label>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-level">Boostrap</label>
+                                    </div>
+                                    <div class="form-check form-switch my-3">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-lable">Agree to the copyright.</label>
+                                    </div>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
